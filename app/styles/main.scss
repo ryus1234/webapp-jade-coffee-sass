@@ -1,31 +1,49 @@
 // bower:scss
 // endbower
 
+@import 'bower_components/sanitize-css/sanitize.scss';
+
 body {
   background: #fafafa;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "メイリオ", "ＭＳ Ｐゴシック",'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
   color: #333;
+  font-size: 16px;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+header{
+  clear: both;
+  overflow: hidden;
+  padding: 10px 30px;
+  h1.logo{
+    float: left;
+    a{
+      font-size: 200%;
+    }
+  }
+  nav{
+    float: right;
+    ul{
+      clear: both;
+      overflow: hidden;
+      li{
+        float: left;
+        margin-right: 30px;
+      }
+    }
   }
 }
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+main{
+
+}
+
+footer{
+  text-align: center;
+}
+
+#top{
+  text-align: center;
+  .intro{
+
+  }
 }
