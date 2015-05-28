@@ -1,1 +1,2 @@
-console.log 'Allo Allo!!'
+$ ->
+  console.log $('header h1.logo').text()
